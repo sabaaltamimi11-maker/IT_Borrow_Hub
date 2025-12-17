@@ -1,0 +1,24 @@
+{
+  "name": "it-borrowing-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "IT Borrowing System Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^7.0.0",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
